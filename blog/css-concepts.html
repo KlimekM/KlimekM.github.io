@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KlimekM Website</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+  <header>
+    <img src="../imgs/website-pic.PNG" alt="My photo" />
+    <h1>Michal Klimek</h1>
+    <form>
+      Search:
+      <input type="search" name= "search">
+    </form>
+  </header>
+  
+  <nav>
+    <a href="#"> About Me</a>
+    <a href="http://klimekm.github.io/blog/blog-index.html"> Blog</a>
+    <a href="#"> Projects</a>
+    <a href="#"> Resume</a>
+    <a href="#"> Contact</a>
+  </nav>
+  <main>
+    <h1>Margins, Borders, and Paddings!</h1>
+    <h2>A description of each and how they differ.</h2>
+    <h4>November 29, 2015</h4>
+    <article>
+      <p>
+      Margins, borders, and paddings were elements that I had a difficult time wrapping my head around at the start of this week. Everything seemed very self-explanatory based on their title and I figured I would jump into this week's challenges without knowing exactly what they are or how they functioned.
+      </p>
+      <p>
+      After some trials, errors, and endless research I came across "the box model" that really brought the concept together for me. One thing to keep in mind prior to viewing the box model is that every element in HTML is essentially a box. It does not make a difference if the element is an image, paragraph, header, or any number of other elements, it is a box! 
+      </p>
+      <p>The Box Model:</p>
+      <img id="box" src="../imgs/box-model.gif" alt "The Box Model" />
+      <p>
+      As you can see in the image above, the box has 4 elements which are content, padding, border, and margin. The content is where the text and images that the creator has inserted all appear, and the border is the outline or border that surrounds the padding and content. The border can be visible and any color that the or width that the creator decides. As seen above the padding lies between the content and the border, it clears an area around the content and if we were to adjust the padding it could visibly stretch the box and it's borders even though it itself is transparent. The margin is the final element that encompasses the previous three. It can not be seen, but it clears a set area around the border that no other elements can intrude upon.
+      </p>
+      <p>
+      Margins, borders, and paddings can all be adjusted as a whole by inserting <code>margin: "insert value"</code>, <code>padding: "insert value"</code>, or <code>border: "insert value" </code>. The "insert value" is where the creator or user can set the value of the command to whatever they desire. In addition to changing all of the element, we are able to change each side of the element and make it a different value which can be seen below: 
+      </p>
+      <img src="../imgs/margin-example.PNG" alt "Margin Example" />
+      <p>
+      In the image above, the command is <code>margin:</code> and we are changing all 4 sides in a clockwise direction starting from the top. So the top margin would be 1px, the right would be 2px, the bottom would be 3px, and finally the left would be 4px.
+      </p>
+      <p>
+      Aside from changing all 4 sides of an element we are also able to change each given side and can do so by inserting <code>padding-left: "Insert value"</code> The "insert value" can be the value for the element that we want to change. In this example we are changing the left padding. The left can also be replaced by top, bottom, or right depending on which padding it is that we want to change.
+      </p>
+      <p>
+      There are many ways to alter and change margins, borders, and paddings. Hopefully I was able to give you a brief introduction into what each element is, how they function, and a few examples of how they can be modified.
+      </p>
+      <p>
+      Thanks for reading, and happy coding!
+      </p>
+    </article>
+  </main>
+  <aside>
+    <a href="https://www.facebook.com/KlimekM"> <img class="resize" src="http://i1197.photobucket.com/albums/aa437/donmacphee88/facebook-logo-resized-image-100x100.png" alt="Facebook Logo" /> </a>
+    <a href="https://www.github.com/KlimekM"> <img class="resize" src="https://hofmannsven.com/website/uploads/2013/02/github.png" alt="Github Logo" /> </a>
+    <a href="https://www.linkedin.com/in/klimekm"> <img class="resize" src="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAANyAAAAJGRlZTNlZDQwLTk4YTItNDA1MS04MzBjLWJmNGQ5M2RmZGUxYw.png" alt="Linkedin Logo" /> </a>
+  </aside>
+  <footer>&copy; Michal Klimek 2015</footer> 
+</body>
+</html>
