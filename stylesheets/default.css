@@ -4,6 +4,7 @@ html {
 }
 header {
 	position: static;
+	clear: both;
 	width: 100%;
 	background-color: #0A1E40;
 	height: 190px;
@@ -45,8 +46,8 @@ nav {
 }
 nav a {
 	display: inline-block;
-	margin-left: 5em;
-	margin-right: 5em;
+	margin-left: 4em;
+	margin-right: 4em;
 	white-space: nowrap;
 	text-align: center;
 }
@@ -64,16 +65,9 @@ main {
 .resize {
 	height: 50px;
 	width: 50px;
-}
-aside {
-	display: inline-block;
-	position: fixed;
-	right: 0px;
-	background-color: #BFBEBE;
-	border: 1px solid black;
-	width: 50px;
-	height: 450px;
-	right: 0;
+	float: right;
+	vertical-align: middle;
+	margin: 0;
 }
 footer {
 	font-weight: lighter;
@@ -83,4 +77,11 @@ footer {
 	left: 0;
 	bottom: 0;
 	position: fixed;
+	clear: both;
+}
+
+footer p {
+	vertical-align: bottom;
+	position: fixed;
+	clear: both;
 }
