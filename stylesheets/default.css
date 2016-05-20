@@ -35,6 +35,10 @@ nav a {
   display: block;
 }
 
+nav a:hover {
+  background-color: #58595b;
+}
+
 main {
   text-align: center;
   margin: 1.5em 5em 5em;
