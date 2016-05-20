@@ -1,3 +1,7 @@
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
 body {
   margin: 0px;
 }
@@ -15,20 +19,30 @@ nav ul {
 
 nav li:first-child {
   float: left;
-  font-size: 2em;
-  padding: .2em;
+  font-size: 1.5em;
+  padding: .5em .5em .5em .75em;
 }
 
 nav li {
   float: right;
   font-size: 1.5em;
-  padding: .5em;
+  padding: .5em .75em .5em .5em;
 }
 
 nav a {
   color: white;
   text-decoration: none;
   display: block;
+}
+
+main {
+  text-align: center;
+  margin: 1.5em 5em 5em;
+}
+
+#my-pic {
+  border-radius: 50%;
+  border: 2px solid #58595b;
 }
 
 footer {
@@ -43,8 +57,6 @@ footer {
 .resize {
   height: 50px;
   width: 50px;
-  /*float: right;*/
-
   vertical-align: middle;
   margin: 0;
   padding: .2em;
@@ -53,4 +65,10 @@ footer {
 footer p {
   float: left;
   padding-left: .5em;
+}
+
+@media only screen and (max-width: 500px) {
+  nav li {
+    padding: .5em;
+  }
 }
